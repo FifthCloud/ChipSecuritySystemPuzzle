@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/bin/Debug
+/obj/Debug
+/ChipSecuritySystem.csproj.user
+/.vs/ChipSecuritySystem.slnx/FileContentIndex
+/.vs
