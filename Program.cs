@@ -89,8 +89,10 @@ namespace ChipSecuritySystem
 
         private static void OutputResults(List<Color[]> output)
         {
+            // Did we find the solution?
             if (output.Count > 0)
             {
+                // Yes we found the solution. Let's print it out.
                 Console.WriteLine("The solution is:");
                 foreach (Color[] chip in output)
                 {
@@ -99,6 +101,7 @@ namespace ChipSecuritySystem
             }
             else
             {
+                // No we did not find the solution. Let's print out the error message.
                 Console.WriteLine(Constants.ErrorMessage);
             }
         }
